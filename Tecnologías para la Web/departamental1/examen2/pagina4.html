@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATÁLOGO DE ARTE</title>
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+
+    <main>
+        <H1 align="center"> CATÁLOGO DE ARTE</H1>
+        <p align="left"><b> Introduce los terminos de busqueda:</b></p>
+        <form action="registro.php" method="GET">
+            <table>
+                <thead>
+                    <th>OBRA</th>
+                    <th>TIPO</th>
+                    <th>DISPONIBILIDAD</th>
+                    <th>ESTILO</th>
+                </thead>
+
+                <tbody>
+
+                <tr>
+                    <td>
+                        <label for="escuela">Título:</label>
+                        <input type="text" name="Título" id="Título" value="" size="15">
+                    <td align="center">
+                        <label><input type="checkbox" value="1" name="estatus" id="estatus"> Escultura<br></label>
+                    <td>
+                        <label><input type="radio" value="1" name="estatus" id="estatus"> Museo/Acceso público<br></label>
+                    <td> 
+                        <select name="estilo" id="estilo">
+                            <option value="1">Clásico</option>
+                            <option value="2">Abstracto</option>
+                            <option value="3">Renacentista</option>
+                            <option value="4">Gótico</option>
+                        </select>
+                    <td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <label for="autor">Autor:</label>
+                        <input type="text" name="Autor" id="Autor" value="" size="8">
+                    <td align="center">
+                        <label><input type="checkbox" value="1" name="estatus" id="estatus">Arquitectura<br></label>
+                    <td>
+                        <label><input type="radio" value="1" name="estatus" id="estatus"> Colección privada<br></label>
+                    <td>
+                </tr>
+                    <td>
+                    <td align="center">
+                        <label><input type="checkbox" value="1" name="estatus" id="estatus">Pintura<br></label>
+                    <td>
+                </tr>
+
+                <tr>
+                    <td><label>Háganos saber sus sugerencias</label></td>
+                    <td><textarea name="textarea" rows="3" cols="50">Me gustaria indicar que...</textarea></td>
+                <tr>
+                    <td>
+                        <td align="center">
+                        <div class="w-33">
+                            <div class="center">
+                            <button>
+                                Buscar
+                            </button>
+                            </div>
+                        </div>
+                    </td>
+                </tbody>
+            </table>
+        </form>
+    </main>
+    <a href="examen2_JGLG.html" class="btn">Link para la página principal</a><br>
+</body>
+</html>
